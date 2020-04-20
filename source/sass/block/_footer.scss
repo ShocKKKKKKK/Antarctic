@@ -1,0 +1,38 @@
+.footer {
+  background: #011C40;
+
+
+  &__inner {
+    display: flex;
+    min-height: 138px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    padding-right: 40px;
+  }
+
+  &__social {}
+}
+
+
+.social {
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 33px;
+    }
+  }
+
+  &__link {}
+}

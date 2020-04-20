@@ -1,0 +1,17 @@
+.nav {
+  color: #F9FBFD;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 33px;
+    }
+  }
+
+  &__link {
+    font-size: 16px;
+  }
+}

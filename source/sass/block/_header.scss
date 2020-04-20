@@ -1,0 +1,34 @@
+.header {
+  min-height: 650px;
+  background: blue center center/cover no-repeat;
+  position: relative;
+  color: #F9FBFD;
+
+  &__top {
+    padding-top: 30px;
+    padding-bottom: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {}
+
+  &__middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 95px;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 54px;
+    margin-bottom: 30px;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
