@@ -1,0 +1,23 @@
+.journey {
+  padding: 120px 0;
+
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 150%;
+    color: #011C40;
+    max-width: 530px;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__img {}
+}
