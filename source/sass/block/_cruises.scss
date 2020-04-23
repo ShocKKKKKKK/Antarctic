@@ -8,15 +8,18 @@
 
   &__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     color: #F9FBFD;
+    margin-right: -30px;
+    max-width: 1160px;
   }
 
   &__item {
     position: relative;
-    max-width: 260px;
+    width: 260px;
     margin-bottom: 30px;
+    margin-right: 30px;
 
     &:hover {
       .cruises__show {
