@@ -1,0 +1,201 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* 
+По умолчанию пишем стили для больших экранов. 
+Desktop - настольный компьютер, с разрешение от 1200px и более. 
+*/
+
+
+/* Large Devices, Wide Screens */
+/* Для экранов с шириной 1999px и менее. Ноутбуки (Laptop) */
+@media (max-width : 1190px) {
+  .header {
+    &__middle {
+      margin-left: 0;
+    }
+  }
+
+  .nav {
+    &__item {
+      &:not(:last-child) {
+        margin-right: 23px;
+      }
+    }
+
+    &__link {
+      font-size: 14px;
+    }
+  }
+
+  .journey {
+    padding: 100px 0;
+  }
+
+  .advantages {
+    padding: 100px 0;
+  }
+
+  .cruises {
+    padding: 100px 0;
+
+    &__list {
+      margin-right: 0;
+    }
+
+    &__item {
+      width: 309px;
+      margin: 0 15px 30px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .reservation {
+      padding: 100px 0;
+    }
+
+    .contacts {
+      padding: 100px 0;
+    }
+  }
+
+  .advantages {
+    &__list {
+      justify-content: center;
+    }
+
+    &__item {
+      flex-basis: 206px;
+      padding: 25px;
+
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+
+  .reservation {
+    &__inner {
+      flex-direction: column;
+    }
+
+    &__descr {
+      text-align: center;
+      max-width: 100%;
+      margin-bottom: 60px;
+    }
+  }
+
+  .contacts {
+    &__map {
+      margin-right: 30px;
+    }
+  }
+
+  .footer {
+    .nav {
+      &__link {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+/* Medium Devices, Desktops */
+/* Для экранов с шириной 991px и менее. Планшеты (Tablets) */
+@media only screen and (max-width : 991px) {}
+
+/* Small Devices, Tablets */
+/* Для экранов с шириной 767px и менее. Планшеты (Tablets) и большие смартфоны. */
+@media only screen and (max-width : 767px) {
+  .journey {
+    padding: 65px 0;
+
+    &__row {
+      flex-direction: column;
+    }
+
+    &__text {
+      margin-right: 0;
+    }
+  }
+
+  .advantages {
+    padding: 65px 0;
+
+    &__list {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      flex-basis: 100%;
+      padding: 25px;
+
+      &:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .cruises {
+    padding: 65px 0;
+
+    &__list {
+      margin-right: 0;
+    }
+
+    &__item {
+      width: 309px;
+      margin: 0 15px 30px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .reservation {
+    padding: 65px 0;
+  }
+
+  .contacts {
+    padding: 65px 0;
+
+    &__inner {
+      flex-direction: column;
+    }
+
+    &__map {
+      margin-right: 0;
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+/* Для экранов с шириной 480px и менее. Смартфоны */
+@media only screen and (max-width : 480px) {
+  .cruises {
+    padding: 65px 0;
+
+    &__list {
+      margin-right: 0;
+    }
+
+    &__item {
+      width: 270px;
+      margin: 0 15px 30px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+/* Custom, iPhone Retina */
+/* Для экранов с шириной 320px и менее. Смартфоны */
+@media only screen and (max-width : 320px) {}
