@@ -142,6 +142,10 @@ Desktop - настольный компьютер, с разрешение от 
 
       &__list {
         display: none;
+        position: absolute;
+        top: 92px;
+        left: 15px;
+        background: #F9FBFD;
       }
     }
   }
