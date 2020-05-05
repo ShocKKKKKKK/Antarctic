@@ -54,6 +54,14 @@
       display: flex;
       align-items: center;
     }
+
+    input {
+
+      &:hover,
+      &:focus {
+        outline: none;
+      }
+    }
   }
 
   &__content {}
@@ -68,6 +76,7 @@
   &__input-checkbox {
     visibility: hidden;
     opacity: 0;
+
 
     &:checked {
       &+.form__checkbox-text {
@@ -84,6 +93,7 @@
     font-weight: 400;
     position: relative;
     padding-left: 6px;
+    cursor: pointer;
 
     &::before {
       content: '';
