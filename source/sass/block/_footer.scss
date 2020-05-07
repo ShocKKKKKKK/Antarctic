@@ -25,6 +25,7 @@
 .social {
 
   &__list {
+    @include reset-list;
     display: flex;
   }
 
