@@ -23,7 +23,9 @@
         </div>
         <nav class="nav">
           <button class="nav__menu-btn">
-            <img src="img/icons/nav/open.svg" width="24" height="12">
+            <svg width="24" height="14">
+              <use xlink:href="#icon-open"></use>
+            </svg>
           </button>
           <ul class="nav__list nav__list--nojs">
             <li class="nav__item"><a href="#" class="nav__link">Преимущества</a></li>
@@ -51,12 +53,13 @@
           </div>
           <div class="journey__img">
             <picture>
-
-              <img src="img/content/penguins.jpg" alt="Пингивины картинка" style="width: 560px; height: 301px;">
+              <source srcset="img/content/penguins.webp" type="image/webp" width="560" height="301">
+              <source srcset="img/creakyOldJPEG.jpg" type="image/jpeg">
+              <img src="img/content/penguins.jpg" alt="Пингивины картинка" width="560" height="301">
             </picture>
             <!-- <picture>
               <source srcset="img/awesomeWebPImage.webp" type="image/webp">
-              <source srcset="img/creakyOldJPEG.jpg" type="image/jpeg"> 
+              <source srcset="img/creakyOldJPEG.jpg" type="image/jpeg">
               <img src="img/creakyOldJPEG.jpg" alt="Alt Text!">
             </picture> -->
           </div>
@@ -105,8 +108,12 @@
         <h2 class="title cruises__title">Ближайшие круизы</h2>
         <ul class="cruises__list">
           <li class="cruises__item">
-            <div class="cruises__img"><img src="img/content/сruises/сruises1.jpg" alt="Круиз Астория" width: 260px;
-                height: 386px;>
+            <div class="cruises__img">
+              <picture>
+                <source srcset="img/content/сruises/сruises1.webp" type="image/webp" alt="Круиз Астория">
+                <source srcset="img/content/сruises/сruises1.jpg" type="image/jpeg">
+                <img src="img/content/сruises/сruises1.jpg" alt="Круиз Астория">
+              </picture>
               <h3 class="cruises__headline">Круиз “Астория”</h3>
             </div>
             <div class="cruises__show">
@@ -120,8 +127,12 @@
             </div>
           </li>
           <li class="cruises__item">
-            <div class="cruises__img"><img src="img/content/сruises/сruises7.jpg" alt="Круиз Элайн" width: 260px;
-                height: 386px;>
+            <div class="cruises__img">
+              <picture>
+                <source srcset="img/content/сruises/сruises7.webp" type="image/webp" alt="Круиз Элайн">
+                <source srcset="img/content/сruises/сruises7.jpg" type="image/jpeg">
+                <img src="img/content/сruises/сruises7.jpg" alt="Круиз Элайн">
+              </picture>
               <h3 class="cruises__headline">Круиз “Элайн”</h3>
             </div>
             <div class="cruises__show">
@@ -134,8 +145,12 @@
             </div>
           </li>
           <li class="cruises__item">
-            <div class="cruises__img"><img src="img/content/сruises/сruises3.jpg" alt="Круиз Атлантис" width: 260px;
-                height: 386px;>
+            <div class="cruises__img"><img src="" width: 260px; height: 386px;>
+              <picture>
+                <source srcset="img/content/сruises/сruises3.webp" type="image/webp" alt="Круиз Атлантис">
+                <source srcset="img/content/сruises/сruises3.jpg" type="image/jpeg">
+                <img src="img/content/сruises/сruises3.jpg" alt="Круиз Атлантис">
+              </picture>
               <h3 class="cruises__headline">Круиз “Атлантис”</h3>
             </div>
             <div class="cruises__show">
@@ -148,8 +163,12 @@
             </div>
           </li>
           <li class="cruises__item">
-            <div class="cruises__img"><img src="img/content/сruises/сruises4.jpg" alt="Круиз Одиссей" width: 260px;
-                height: 386px;>
+            <div class="cruises__img"><img src="" width: 260px; height: 386px;>
+              <picture>
+                <source srcset="img/content/сruises/сruises4.webp" type="image/webp" alt="Круиз Одиссей">
+                <source srcset="img/content/сruises/сruises4.jpg" type="image/jpeg">
+                <img src="img/content/сruises/сruises4.jpg" alt="Круиз Одиссей">
+              </picture>
               <h3 class="cruises__headline">Круиз “Одиссей”</h3>
             </div>
             <div class="cruises__show">
@@ -161,8 +180,12 @@
             </div>
           </li>
           <li class="cruises__item">
-            <div class="cruises__img"><img src="img/content/сruises/сruises5.jpg" alt="Круиз Олимпия" width: 260px;
-                height: 386px;>
+            <div class="cruises__img"><img src="" width: 260px; height: 386px;>
+              <picture>
+                <source srcset="img/content/сruises/сruises5.webp" type="image/webp" alt="Круиз Олимпия">
+                <source srcset="img/content/сruises/сruises5.jpg" type="image/jpeg">
+                <img src="img/content/сruises/сruises5.jpg" alt="Круиз Олимпия">
+              </picture>
               <h3 class="cruises__headline">Круиз “Олимпия”</h3>
             </div>
             <div class="cruises__show">
@@ -175,8 +198,12 @@
             </div>
           </li>
           <li class="cruises__item">
-            <div class="cruises__img"><img src="img/content/сruises/сruises6.jpg" alt="Круиз Аврора" width: 260px;
-                height: 386px;>
+            <div class="cruises__img">
+              <picture>
+                <source srcset="img/content/сruises/сruises6.webp" type="image/webp" alt="Круиз Аврора">
+                <source srcset="img/content/сruises/сruises6.jpg" type="image/jpeg">
+                <img src="img/content/сruises/сruises6.jpg" alt="Круиз Аврора">
+              </picture>
               <h3 class="cruises__headline">Круиз “Аврора”</h3>
             </div>
             <div class="cruises__show">
@@ -188,8 +215,12 @@
             </div>
           </li>
           <li class="cruises__item">
-            <div class="cruises__img"><img src="img/content/сruises/сruises7.jpg" alt="Круиз Леонор" width: 260px;
-                height: 386px;>
+            <div class="cruises__img"><img src="" width: 260px; height: 386px;>
+              <picture>
+                <source srcset="img/content/сruises/сruises7.webp" type="image/webp" alt="Круиз Леонор">
+                <source srcset="img/content/сruises/сruises7.jpg" type="image/jpeg">
+                <img src="img/content/сruises/сruises7.jpg" alt="Круиз Леонор">
+              </picture>
               <h3 class="cruises__headline">Круиз “Леонор”</h3>
             </div>
             <div class="cruises__show">
@@ -202,8 +233,12 @@
             </div>
           </li>
           <li class="cruises__item">
-            <div class="cruises__img"><img src="img/content/сruises/сruises8.jpg" alt="Круиз Минион - 1" width: 260px;
-                height: 386px;>
+            <div class="cruises__img"><img src="" width: 260px; height: 386px;>
+              <picture>
+                <source srcset="img/content/сruises/сruises8.webp" type="image/webp" alt="Круиз Минион - 1">
+                <source srcset="img/content/сruises/сruises8.jpg" type="image/jpeg">
+                <img src="img/content/сruises/сruises8.jpg" alt="Круиз Минион - 1">
+              </picture>
               <h3 class="cruises__headline">Круиз “Минион - 1”</h3>
             </div>
             <div class="cruises__show">
@@ -254,22 +289,27 @@
     <section class="contacts">
       <div class="container">
         <div class="contacts__inner">
-          <div class="contacts__map"><img src="img/content/map.jpg" alt="карта"></div>
+          <div class="contacts__map">
+            <picture>
+              <source srcset="img/content/map.webp" type="image/webp" alt="карта">
+              <source srcset="img/content/map.jpg" type="image/jpeg">
+              <img src="img/content/map.jpg" alt="карта">
+            </picture>
+          </div>
           <div class="contacts__text">
             <p class="contacts__caption">У вас ещё остались вопросы или сомнения?
               Приезжайте к нам в офис и мы вам все расскажем.</p>
             <p class="contacts__address">
               <svg width="18" height="22">
-              <use xlink:href="#icon-map-icon"></use>
-            </svg>
-            <span>г. Санкт Петербург,
+                <use xlink:href="#icon-map-icon"></use>
+              </svg>
+              <span>г. Санкт Петербург,
                 ул. Большая Конюшенная, 19/8</span></p>
             <p class="contacts__phone">
               <svg width="18" height="18">
                 <use xlink:href="#icon-phone"></use>
               </svg>
-            <a
-                href="tel:+88002000000">8-800-200-00-00</a></p>
+              <a href="tel:+88002000000">8-800-200-00-00</a></p>
           </div>
         </div>
       </div>
@@ -294,19 +334,19 @@
         <div class="footer__social social">
           <ul class="social__list">
             <li class="social__item"><a href="#" class="social__link" aria-label="ссылка на фейсбук">
-              <svg width="11" height="20">
-                <use xlink:href="#icon-fs"></use>
-              </svg>
+                <svg width="11" height="20">
+                  <use xlink:href="#icon-fs"></use>
+                </svg>
             </li>
             <li class="social__item"><a href="#" class="social__link" aria-label="ссылка на инстаграмм">
-              <svg width="20" height="20">
-                <use xlink:href="#icon-inst"></use>
-              </svg>
+                <svg width="20" height="20">
+                  <use xlink:href="#icon-inst"></use>
+                </svg>
             </li>
             <li class="social__item"><a href="#" class="social__link" aria-label="ссылка на твиттер">
-              <svg width="20" height="16">
-                <use xlink:href="#icon-twitter"></use>
-              </svg>
+                <svg width="20" height="16">
+                  <use xlink:href="#icon-twitter"></use>
+                </svg>
             </li>
           </ul>
         </div>
