@@ -1,5 +1,6 @@
 .nav {
   color: #F9FBFD;
+  position: relative;
 
   &__list {
     display: flex;
@@ -8,6 +9,14 @@
     &--nojs {
       display: flex;
     }
+
+    // &--opened {
+    //   position: absolute;
+    //   background-color: white;
+    //   height: 300px;
+    //   width: 100%;
+    //   z-index: 100;
+    // }
   }
 
   &__item {
@@ -43,4 +52,6 @@
       margin-bottom: 4px;
     }
   }
+
+
 }
