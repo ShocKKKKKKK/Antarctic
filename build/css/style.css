@@ -535,11 +535,13 @@ body {
     .cruises__item img {
       display: block; }
     .cruises__item:hover .cruises__show {
-      visibility: visible; }
+      visibility: visible;
+      position: absolute;
+      z-index: 2; }
     .cruises__item:hover .cruises__headline {
       top: 35px;
       left: 25px;
-      z-index: 1; }
+      z-index: 3; }
   .cruises__headline {
     position: absolute;
     bottom: 30px;
@@ -577,7 +579,8 @@ body {
     font-weight: 600;
     font-size: 14px;
     padding: 15px 47px;
-    color: #011C40; }
+    color: #011C40;
+    cursor: pointer; }
 
 .reservation {
   padding: 50px 0;
@@ -634,6 +637,8 @@ body {
     border: none;
     width: 100%;
     padding: 16px; }
+    .form__input:focus {
+      background: #cacbcc; }
   .form__input-checkbox {
     visibility: hidden;
     opacity: 0; }

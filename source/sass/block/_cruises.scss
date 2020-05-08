@@ -30,12 +30,14 @@
     &:hover {
       .cruises__show {
         visibility: visible;
+        position: absolute;
+        z-index: 2;
       }
 
       .cruises__headline {
         top: 35px;
         left: 25px;
-        z-index: 1;
+        z-index: 3;
       }
     }
   }
@@ -91,5 +93,6 @@
     font-size: 14px;
     padding: 15px 47px;
     color: #011C40;
+    cursor: pointer;
   }
 }

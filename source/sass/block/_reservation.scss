@@ -71,6 +71,10 @@
     border: none;
     width: 100%;
     padding: 16px;
+
+    &:focus {
+      background: rgb(202, 203, 204);
+    }
   }
 
   &__input-checkbox {
