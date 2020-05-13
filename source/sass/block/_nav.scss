@@ -4,6 +4,7 @@
 
   &__list {
     display: flex;
+    flex-wrap: wrap;
     @include reset-list;
 
     &--nojs {
