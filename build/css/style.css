@@ -387,7 +387,7 @@ body {
   color: #F9FBFD; }
   .header__top {
     padding-top: 30px;
-    padding-bottom: 210px;
+    margin-bottom: 197px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -412,7 +412,7 @@ body {
   .header__title {
     font-weight: bold;
     font-size: 54px;
-    margin-bottom: 30px; }
+    margin-bottom: 15px; }
   .header__subtitle {
     font-weight: 400;
     font-size: 20px; }
@@ -471,13 +471,14 @@ body {
     max-width: 530px;
     margin-right: 30px; }
   .journey__title {
-    margin-bottom: 40px; }
+    margin-top: 12px;
+    margin-bottom: 32px; }
 
 .advantages {
   background: url("../img/bg/advantages-bg.jpg") center center/cover no-repeat;
-  padding: 120px 0; }
+  padding: 113px 0 117px; }
   .advantages__title {
-    margin-bottom: 60px;
+    margin-bottom: 57px;
     text-align: center; }
   .advantages__list {
     margin: 0;
@@ -494,13 +495,14 @@ body {
         flex-basis: 360px;
     background: #F9FBFD;
     padding: 30px;
-    color: #011C40; }
+    color: #011C40;
+    height: 240px; }
   .advantages__icon {
-    margin-bottom: 30px; }
+    min-height: 41px;
+    margin-bottom: 9px; }
   .advantages__caption {
     font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 20px; }
+    font-weight: 500; }
   .advantages__text {
     font-weight: 400;
     font-size: 14px;
@@ -510,7 +512,7 @@ body {
   padding: 120px 0 90px; }
   .cruises__title {
     text-align: center;
-    margin-bottom: 60px; }
+    margin-bottom: 51px; }
   .cruises__list {
     margin: 0;
     padding: 0;
@@ -618,11 +620,11 @@ body {
           box-shadow: 0px 4px 45px rgba(1, 28, 64, 0.15);
   color: #F9FBFD; }
   .form__title {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     font-size: 18px;
     line-height: 150%; }
   .form__row:not(:last-child) {
-    margin-bottom: 20px; }
+    margin-bottom: 19px; }
   .form__row-checkbox {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -636,7 +638,7 @@ body {
     background: #F9FBFD;
     border: none;
     width: 100%;
-    padding: 16px; }
+    padding: 13px; }
     .form__input:focus {
       background: #cacbcc; }
   .form__input-checkbox {
@@ -662,7 +664,7 @@ body {
     background: #F9FBFD;
     border: none;
     width: 100%;
-    padding: 16px;
+    padding: 12px;
     margin-top: 10px;
     cursor: pointer; }
 

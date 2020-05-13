@@ -40,14 +40,14 @@
   color: #F9FBFD;
 
   &__title {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     font-size: 18px;
     line-height: 150%;
   }
 
   &__row {
     &:not(:last-child) {
-      margin-bottom: 20px;
+      margin-bottom: 19px;
     }
 
     &-checkbox {
@@ -70,7 +70,7 @@
     background: #F9FBFD;
     border: none;
     width: 100%;
-    padding: 16px;
+    padding: 13px;
 
     &:focus {
       background: rgb(202, 203, 204);
@@ -113,7 +113,7 @@
     background: #F9FBFD;
     border: none;
     width: 100%;
-    padding: 16px;
+    padding: 12px;
     margin-top: 10px;
     cursor: pointer;
   }

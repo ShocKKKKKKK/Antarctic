@@ -1,9 +1,9 @@
 .advantages {
   background: url('../img/bg/advantages-bg.jpg') center center/cover no-repeat;
-  padding: 120px 0;
+  padding: 113px 0 117px;
 
   &__title {
-    margin-bottom: 60px;
+    margin-bottom: 57px;
     text-align: center;
   }
 
@@ -11,7 +11,7 @@
     @include reset-list;
     display: flex;
     justify-content: space-between;
-    
+
   }
 
   &__item {
@@ -19,16 +19,17 @@
     background: #F9FBFD;
     padding: 30px;
     color: #011C40;
+    height: 240px;
   }
 
   &__icon {
-    margin-bottom: 30px;
+    min-height: 41px;
+    margin-bottom: 9px;
   }
 
   &__caption {
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 20px;
   }
 
   &__text {
