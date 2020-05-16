@@ -38,6 +38,8 @@
   background: #011C40;
   box-shadow: 0px 4px 45px rgba(1, 28, 64, 0.15);
   color: #F9FBFD;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 
   &__title {
     margin-bottom: 20px;
