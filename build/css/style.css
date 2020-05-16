@@ -643,11 +643,8 @@ body {
     padding: 13px; }
     .form__input:focus {
       background: #cacbcc; }
-  .form__input-checkbox {
-    visibility: hidden;
-    opacity: 0; }
-    .form__input-checkbox:checked + .form__checkbox-text::before {
-      background: #F9FBFD url(../img/icon-checker.svg) center center no-repeat; }
+  .form__input-checkbox:checked + .form__checkbox-text::before {
+    background: #F9FBFD url(../img/icon-checker.svg) center center no-repeat; }
   .form__checkbox-text {
     font-size: 10px;
     line-height: 130%;

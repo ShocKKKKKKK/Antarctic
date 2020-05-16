@@ -80,9 +80,6 @@
   }
 
   &__input-checkbox {
-    visibility: hidden;
-    opacity: 0;
-
 
     &:checked {
       &+.form__checkbox-text {
